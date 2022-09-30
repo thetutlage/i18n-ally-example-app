@@ -23,7 +23,7 @@ refactorTemplates:
 ```
 
 ## Enabling namespaces
-AdonisJS uses namespaces for translations and hence this option must be enabled for the extension to work properly.
+AdonisJS uses [namespaces](https://github.com/lokalise/i18n-ally/wiki/Namespaces) for translations and hence this option must be enabled for the extension to work properly.
 
 ## Testing
 Open `resources/views/welcome.edge` file to see the extension in action. Search for `{{ t("messages.title") }}` for example.
