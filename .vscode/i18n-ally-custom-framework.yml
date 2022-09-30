@@ -1,0 +1,9 @@
+languageIds:
+  edge
+
+usageMatchRegex:
+  - "[^\\w\\d]t\\(['\"`]({key})['\"`]"
+
+refactorTemplates:
+  - '{{ t("$1") }}'
+  - t("$1")
